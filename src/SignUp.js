@@ -12,7 +12,7 @@ export function Signup() {
 
     function handleSubmit(event) {
         event.preventDefault();
-        axios.put('http://localhost:5000/api/users/signup', { username, password, role })
+        axios.put('https://vehicle-rental-system-react-project-fb.onrender.com/api/users/signup', { username, password, role })
             .then(response => {
                 console.log(response.data.message);
                 navigate('/login');
