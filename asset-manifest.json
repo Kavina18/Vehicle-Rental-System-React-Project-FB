@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Vehicle-Rental-System-React-Project-FB/static/css/main.41fae1dd.css",
-    "main.js": "/Vehicle-Rental-System-React-Project-FB/static/js/main.f1bc6309.js",
+    "main.js": "/Vehicle-Rental-System-React-Project-FB/static/js/main.b373f227.js",
     "static/js/453.e2a45b5e.chunk.js": "/Vehicle-Rental-System-React-Project-FB/static/js/453.e2a45b5e.chunk.js",
     "static/media/Logo_Gocars.png": "/Vehicle-Rental-System-React-Project-FB/static/media/Logo_Gocars.97098defb8011023f11d.png",
     "static/media/machine-grey-background-volvo-wallpaper-preview (1).jpg": "/Vehicle-Rental-System-React-Project-FB/static/media/machine-grey-background-volvo-wallpaper-preview (1).a648cee0f4f8e0a6eb0d.jpg",
     "index.html": "/Vehicle-Rental-System-React-Project-FB/index.html",
     "main.41fae1dd.css.map": "/Vehicle-Rental-System-React-Project-FB/static/css/main.41fae1dd.css.map",
-    "main.f1bc6309.js.map": "/Vehicle-Rental-System-React-Project-FB/static/js/main.f1bc6309.js.map",
+    "main.b373f227.js.map": "/Vehicle-Rental-System-React-Project-FB/static/js/main.b373f227.js.map",
     "453.e2a45b5e.chunk.js.map": "/Vehicle-Rental-System-React-Project-FB/static/js/453.e2a45b5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41fae1dd.css",
-    "static/js/main.f1bc6309.js"
+    "static/js/main.b373f227.js"
   ]
 }
