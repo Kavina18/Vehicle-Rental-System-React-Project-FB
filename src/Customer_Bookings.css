@@ -1,0 +1,44 @@
+.customer_bookings_container {
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 5vh;
+}
+
+.heading_customer_bookings {
+    margin-left: 3vw;
+    color: white;
+    font-size: 30px;
+}
+
+.table_container {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+.customer_bookings_table {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.customer_bookings_table th,
+.customer_bookings_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.customer_bookings_table th {
+    background-color: #f2f2f2;
+    color: #1e1c1c;
+}
+
+.customer_bookings_table td{
+    color: white;
+    background-color: rgba(158, 154, 154,0.2);
+}
+
+.table_row:hover {
+  background-color: rgba(241, 241, 241,0.4);
+}

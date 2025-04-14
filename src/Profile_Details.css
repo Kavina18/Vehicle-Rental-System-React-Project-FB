@@ -1,0 +1,83 @@
+
+.profile_details {
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    width: 100%;
+    padding-bottom: 5vh;
+    color: rgb(255, 255, 255);
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 3vw;
+    margin-bottom: 15px;
+}
+
+#person_Details_form {
+    width: 70vw;
+    margin:2.5vw 10vw;
+    border: 2px solid rgb(123, 116, 116);
+    padding: 35px ;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px rgb(104, 101, 101);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input_profile {
+    width: 90%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(194, 194, 195, 0.6);
+    color: #333;
+}
+
+.input_profile::placeholder {
+    color: #2d2c2c;
+}
+
+.book_now {
+    grid-column: span 2;
+    width: 40%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    justify-self: center;
+}
+
+.book_now:hover {
+    background: #2b672e;
+}
+
+.input_profile:focus {
+    background-color: rgb(196, 192, 192);
+}
+
+.next {
+    width: 7vmin;
+    height:  7vmin;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 4.3vmin;
+    right: 3.5vmin;
+    background-color: #f4faf7;
+    color:black;
+    cursor: pointer; 
+    font-size: 4vmin; 
+}
+

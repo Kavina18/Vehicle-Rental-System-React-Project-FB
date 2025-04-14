@@ -1,0 +1,91 @@
+.mycars_container {
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 5vh;
+}
+
+.mycars_heading {
+    margin-left: 3vw;
+    color: white;
+    font-size: 30px;
+}
+
+.mycarstable_container {
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+.mycars_table {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.mycars_table th,
+.mycars_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.mycars_table th {
+  background-color: #f2f2f2;
+  color: #1e1c1c;
+}
+
+.mycars_table td{
+  color: white;
+  background-color: rgba(158, 154, 154,0.2);
+}
+
+.mycars_table_row:hover {
+  background-color: rgba(241, 241, 241,0.4);
+}
+
+.heading_mycars {
+    margin-left: 3vw;
+    color: white;
+    font-size: 30px;
+}
+
+.mycars_table {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.cars_table th,
+.mycars_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.mycars_table td{
+  color: white;
+  background-color: rgba(158, 154, 154,0.2);
+}
+
+.mycar_table_row:hover {
+  background-color: rgba(241, 241, 241,0.4);
+}
+
+.car_icon{
+  padding: 5px 10px;
+  margin: 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  position: absolute;
+  right: 3vw;
+  top: 1.2vh;
+  width: 22%;
+  height: 50px;
+}
+
+.car_icon:hover{
+  background-color: #2b672e;
+}

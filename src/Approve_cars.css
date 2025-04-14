@@ -1,0 +1,62 @@
+.approve_cars_container {
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 5vh;
+}
+
+.heading_approve_cars {
+    margin-left: 3vw;
+    color: white;
+    font-size: 30px;
+}
+
+.table_container {
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+.approve_cars_table {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.approve_cars_table th,
+.approve_cars_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.approve_cars_table th {
+  background-color: #f2f2f2;
+  color: #1e1c1c;
+}
+
+.approve_cars_table td{
+  color: white;
+  background-color: rgba(158, 154, 154,0.2);
+}
+
+.table_row:hover {
+  background-color: rgba(241, 241, 241,0.4);
+}
+
+.approve_button,
+.reject_button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.approve_button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reject_button {
+  background-color: #f44336;
+  color: white;
+}

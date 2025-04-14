@@ -1,0 +1,39 @@
+.about{
+    background-image: url("/src/machine-grey-background-volvo-wallpaper-preview\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#logo{
+    margin-left: 0.2vw;
+    max-width: 18vw;
+    max-height: 100px;
+    margin-top: 0.2vh;
+}
+
+.back_icon{
+    position: absolute;
+    right: 3vw;
+    top: 1.2vh;
+    width: 22%;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.about h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5vw;
+    margin-bottom: 20px;
+    color: rgb(16, 16, 16);
+}
+.about p{
+    font-size: 1.5em;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: rgb(16, 16, 16);
+}

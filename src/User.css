@@ -1,0 +1,155 @@
+body,html{
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto; 
+}
+
+.rent_cars_container {
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;  
+    overflow: auto;
+    padding-bottom: 5vh;
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+  
+.navbar nav{
+    padding: 10px;
+    background: linear-gradient(to bottom,black,rgb(66, 63, 63),#63666c,#62666b);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+}
+
+
+.go_to_about_button{
+    position: fixed;
+    right: 20vw; 
+    top: 4vh;
+    font-size: 20px; 
+    background: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 3vw;
+    z-index: 1000;
+}
+
+.search_bar {
+    position: fixed; 
+    right: 5vw; 
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.8); /* Increased opacity for better visibility */
+    font-size: 14px;
+    height: 20px;
+    width: 200px;
+    z-index: 1000; /* Ensure this element stays on top */
+}
+  
+.filter_container {
+    position: fixed;
+    left: 1.5vw;
+    top: 10vmax;
+    background: #777;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+  
+.filter_input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 18vw;
+    border: none;
+    font-size: 14px;
+}
+  
+.filter_button {
+    background: #90EE90;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filter_button:hover{
+    background-color: rgb(20, 122, 20);
+    color: white;
+}
+
+.cars_display {
+    position: absolute;
+    left:28vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    gap: 20px;
+    justify-content:flex-start;
+    padding: 20px;
+    width: 62.5vw;
+    overflow-y: auto;
+    margin-top: 120px;
+}
+
+.car_card {
+    background: #888;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 220px; 
+    min-width: 150px;
+    flex-grow: 1;
+} 
+ 
+.car_image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}  
+ 
+.car_price {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 5px 0;   
+}
+  
+.rent_button {
+    background: #3498db;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;   
+} 
+  
+.car_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;   
+}

@@ -1,0 +1,75 @@
+.Admin_page {
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.admin_heading{
+    margin-left: 3vw;
+    color: white;
+    font-size: 30px;
+}
+
+.main_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.side_bar {
+    margin-left: 2vw;
+    width: 300px;
+    height: 75vh;
+    background: rgba(176, 172, 172, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+  
+.menu_button {
+    width: 100%;
+    background: #c1c1c1;
+    color: #777;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+  
+.menu_button:hover {
+    background: #a1a1a1;
+}
+  
+.main_bar {
+    padding: 40px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.approve_cars_button {
+    background: #5c835e;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+}
+  
+.approve_cars_button:hover {
+    background: #486a49;
+}
