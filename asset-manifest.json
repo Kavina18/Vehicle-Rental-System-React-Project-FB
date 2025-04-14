@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Vehicle-Rental-System-React-Project-FB/static/css/main.f855e6bc.css",
+    "main.js": "/Vehicle-Rental-System-React-Project-FB/static/js/main.278a8b7e.js",
+    "static/js/453.e2a45b5e.chunk.js": "/Vehicle-Rental-System-React-Project-FB/static/js/453.e2a45b5e.chunk.js",
+    "static/media/logo.svg": "/Vehicle-Rental-System-React-Project-FB/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Vehicle-Rental-System-React-Project-FB/index.html",
+    "main.f855e6bc.css.map": "/Vehicle-Rental-System-React-Project-FB/static/css/main.f855e6bc.css.map",
+    "main.278a8b7e.js.map": "/Vehicle-Rental-System-React-Project-FB/static/js/main.278a8b7e.js.map",
+    "453.e2a45b5e.chunk.js.map": "/Vehicle-Rental-System-React-Project-FB/static/js/453.e2a45b5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.278a8b7e.js"
+  ]
+}
