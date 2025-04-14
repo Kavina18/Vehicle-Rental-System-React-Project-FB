@@ -17,7 +17,7 @@ export function Login() {
         event.preventDefault();
         if (validateForm()) {
             try {
-                const response = await axios.post('http://localhost:5000/api/login', { username, password, role });
+                const response = await axios.post('https://vehicle-rental-system-react-project-fb.onrender.com/api/login', { username, password, role });
 
                 if (response.status === 200) {
                     alert(response.data.success);
