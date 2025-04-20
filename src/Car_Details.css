@@ -1,0 +1,62 @@
+
+.car_details {
+    background: linear-gradient(to bottom,#767e8a,#52565c,black);
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+
+.car_details_heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 3vw;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.car_details_form {
+    color: white;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    width: 60vw;
+    height: fit-content;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: left;
+    justify-content: center;
+}
+
+.car_details_label {
+    font-size: 16px;
+    color: white;
+    align-self: center;
+}
+
+.car_details_input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: #ddd;
+    color: black;
+    width: 70%;
+}
+
+.car_details_button {
+    grid-column: span 2;
+    width: 15vw;
+    margin-top: 20px;
+    padding: 10px;
+    background: lightgreen;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.car_details_button:hover {
+    background: green;
+    color: white;
+}

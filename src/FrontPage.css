@@ -1,0 +1,39 @@
+.front_page {
+  background-image: url("/src/machine-grey-background-volvo-wallpaper-preview\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.front_page_header {
+  padding: 20px;
+  font-size: 30px;
+  color: rgb(12, 12, 12) !important;
+}
+
+.front_page_button {
+  margin-top: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+} 
+
+.continue {
+  background-color: #feffff; 
+  border: none;
+  padding: 10px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: black;
+}
+
+.continue:hover {
+  background-color: #3c4042;
+  color: white;
+}
